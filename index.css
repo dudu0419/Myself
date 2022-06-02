@@ -1,0 +1,83 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{width: 1920px;
+	height: auto;
+     margin: 0 auto;
+	 position: relative;
+	 top: 0;
+	 overflow: hidden;}
+.one {
+			width: 1920px;
+			height: 1024px;
+			position: relative;
+			top: 0;
+			animation-name: move;
+			animation-duration: 20s;
+			animation-iteration-count: infinite;
+		}
+		@keyframes move {
+			0% {
+				background-image: url("./image/1.jpg");
+				background-size: cover;
+			}
+			20% {
+				
+				background-image: url("./image/2.jpg");
+				background-size: cover;
+			}
+			40% {
+				
+				background-image: url("./image/3.jpg");
+				background-size: cover;
+			}
+			60% {
+				
+				background-image: url("./image/2.jpg");
+				background-size: cover;
+			}
+			80% {
+			
+				background-image: url("./image/3.jpg");
+					background-size: cover;
+			}
+			100% {
+				
+				background-image: url("./image/1.jpg");
+				background-size: cover;
+			}
+		}
+		.daohang{position: absolute;
+		width: 1200px;
+		height: 36px;
+		top: 800px;
+		left: 360px;}
+		.two{position: absolute;
+		top: 0px;
+		left: 200px;
+		font-size: 40px;
+		font-family: 黑体;
+		text-decoration: none;
+		}
+		.three{position: absolute;
+		top: 0px;
+		left: 441px;
+		font-size: 40px;
+		font-family: 黑体;
+		text-decoration: none;
+		}
+		.four{position: absolute;
+		top: 0px;
+		left: 682px;
+		font-size: 40px;
+		font-family: 黑体;
+		text-decoration: none;
+		}
+		.five{position: absolute;
+		top: 0px;
+		right: 200px;
+		font-size: 40px;
+		font-family: 黑体;
+		text-decoration: none;
+		}

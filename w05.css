@@ -1,0 +1,89 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.daohang{position: absolute;
+		width: 1200px;
+		height: 36px;
+		top: 100px;
+		left: 360px;
+		
+		;
+		}
+		.two{position: absolute;
+		top: 0px;
+		left: 200px;
+		font-size: 40px;
+		font-family: 黑体;
+		text-decoration: none;
+		}
+		.three{position: absolute;
+		top: 0px;
+		left: 441px;
+		font-size: 40px;
+		font-family: 黑体;
+		text-decoration: none;
+		}
+		.four{position: absolute;
+		top: 0px;
+		left: 682px;
+		font-size: 40px;
+		font-family: 黑体;
+		text-decoration: none;
+		}
+		.five{position: absolute;
+		top: 0px;
+		right: 200px;
+		font-size: 40px;
+		font-family: 黑体;
+		text-decoration: none;
+		}
+
+.box{position: relative;
+	top: 200px;
+	width:1200px ;
+	height: 1150px;
+	/* overflow: hidden; */
+	/* 整个模块居中 */
+	margin: 50px auto;
+}
+.box .box1{position: absolute;
+	
+	float: left;
+	top: 0;
+	left: 20px;
+	margin-right: 13px;
+	margin-bottom: 13px;
+}
+.box .box2{position: absolute;
+	
+	float: left;
+	top: 280px;
+	left: 20px;
+	margin-right: 13px;
+	margin-bottom: 13px;
+}
+.box .box3{position: absolute;
+	
+	float: left;
+	top: 560px;
+	left: 20px;
+	margin-right: 13px;
+	margin-bottom: 50px;
+}
+.box .box4{position: absolute;
+	
+	float: right;
+	top: 0;
+	right: 20px;
+	margin-right: 13px;
+	margin-bottom: 50px;
+}
+.box .box5{position: absolute;
+	
+	float: right;
+	top: 560px;
+	right: 20px;
+	margin-right: 13px;
+	margin-bottom: 50px;
+}

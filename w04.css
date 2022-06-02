@@ -1,0 +1,55 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.daohang{position: absolute;
+		width: 1200px;
+		height: 36px;
+		top: 100px;
+		left: 360px;
+		
+		;
+		}
+		.two{position: absolute;
+		top: 0px;
+		left: 200px;
+		font-size: 40px;
+		font-family: 黑体;
+		text-decoration: none;
+		}
+		.three{position: absolute;
+		top: 0px;
+		left: 441px;
+		font-size: 40px;
+		font-family: 黑体;
+		text-decoration: none;
+		}
+		.four{position: absolute;
+		top: 0px;
+		left: 682px;
+		font-size: 40px;
+		font-family: 黑体;
+		text-decoration: none;
+		}
+		.five{position: absolute;
+		top: 0px;
+		right: 200px;
+		font-size: 40px;
+		font-family: 黑体;
+		text-decoration: none;
+		}
+
+.box{position: relative;
+	top: 200px;
+	width:1250px ;
+	overflow: hidden;
+	/* 整个模块居中 */
+	margin: 50px auto;
+}
+.box .box1{
+	width: 387px;
+	height: 362px;
+	float: left;
+	margin-right: 13px;
+	margin-bottom: 50px;
+}

@@ -1,0 +1,218 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{position: relative;
+    overflow: hidden;
+    width: 1920px;
+	margin: 0 aoto;
+	}
+.tu{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.zi01{
+	position: absolute;
+	
+	
+	top: 350px;
+	left: 370px;
+	
+	
+	font-size: 200px;
+	font-family: 黑体;
+	font-weight: 900;
+	
+}
+.zi02{position: absolute;
+    top: 350px;
+    left: 500px;
+    
+	
+	font-size: 200px;
+	font-family: 黑体;
+	font-weight: 900;
+	}
+.zi03{position: absolute;
+    top: 400px;
+    left: 500px;
+	
+	font-size: 120px;
+	font-family: 黑体;
+	font-weight: 900;
+	display: inline;
+	text-align: center;}
+.zi04{position: absolute;
+    top: 350px;
+    left: 460px;
+	
+	font-size: 200px;
+	font-family: 黑体;
+	font-weight: 900;
+	display: inline;
+	text-align: center;}
+.zi05{position: absolute;
+    top: 400px;
+    left: 390px;
+	
+	font-size: 80px;
+	font-family: 黑体;
+	font-weight: 900;
+	display: inline;
+	text-align: center;}
+.tu{animation-name: cantoons0;
+	animation-duration: 33s;
+	animation-iteration-count:1;
+	}
+	.zi05{animation-name: cantoons;
+	animation-duration: 13s;
+	animation-iteration-count:1;
+	animation-fill-mode: both;
+	animation-delay: 14s
+	
+	}
+	.zi04{animation-name:cantoons1;
+	animation-duration: 13s;
+	animation-iteration-count: 1;
+	animation-fill-mode: both;
+	animation-delay: 10s;
+	}
+	.zi03{animation-name: cantoons2;
+	animation-duration: 13s;
+	animation-iteration-count:1;
+	animation-fill-mode: both;
+	animation-delay: 7s;
+	}
+	.zi02{animation-name: cantoons3;
+	animation-duration: 13s;
+	animation-iteration-count:1;
+	animation-fill-mode: both;
+	animation-delay: 3.5s;
+	}
+	.zi01{animation-name: cantoons4;
+	animation-duration: 8s;
+	animation-iteration-count: 1;
+	animation-fill-mode: both;
+	animation-delay: 1s;}
+	@keyframes cantoons4 {
+		0% {
+			opacity: 1;
+		}
+		20% {
+			opacity: 0;
+		}
+		40% {
+			opacity: 0;
+		}
+		60% {
+			opacity: 0;
+		}
+		80% {
+		    opacity: 0;
+		}
+		100% {
+			opacity: 0;
+		}
+	}
+	@keyframes cantoons3{
+		0% {
+			opacity: 0;
+		}
+		20% {
+			opacity: 1;
+		}
+		40% {
+			opacity: 0;
+		}
+		60% {
+			opacity: 0;
+		}
+		80% {
+		    opacity: 0;
+		}
+		100% {
+			opacity: 0;
+		}
+	}
+	@keyframes cantoons2{
+		0% {
+			opacity: 0;
+		}
+		20% {
+			opacity: 0;
+		}
+		40% {
+			opacity: 1;
+		}
+		60% {
+			opacity: 0;
+		}
+		80% {
+		    opacity: 0;
+		}
+		100% {
+			opacity: 0;
+		}
+	}
+	@keyframes cantoons1{
+		0% {
+			opacity: 0;
+		}
+		20% {
+			opacity: 0;
+		}
+		40% {
+			opacity: 0;
+		}
+		60% {
+			opacity: 1;
+		}
+		80% {
+		    opacity: 0;
+		}
+		100% {
+			opacity: 0;
+		}
+	}
+	@keyframes cantoons{
+		0% {
+			opacity: 0;
+		}
+		20% {
+			opacity: 0;
+		}
+		40% {
+			opacity: 0;
+		}
+		60% {
+			opacity: 0;
+		}
+		80% {
+		    opacity: 1;
+		}
+		100% {
+			opacity: 0;
+		}
+	}
+	@keyframes cantoons0{
+		0% {
+			opacity: 0;
+		}
+		20% {
+			opacity: 0;
+		}
+		40% {
+			opacity: 0;
+		}
+		60% {
+			opacity: 0;
+		}
+		80% {
+		    opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	}
+	
